@@ -18,3 +18,6 @@ if(CLANG_ENABLE_STATIC_ANALYZER)
 add_subdirectory(test)
 add_subdirectory(unittests)
 endif()
+
+add_subdirectory(hierarchy)
+add_subdirectory(virtual-calls)
